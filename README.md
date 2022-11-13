@@ -2,8 +2,20 @@
 
 [Fish shell](https://fishshell.com/) :fish: abbreviations and completions for [`skaffold`](https://skaffold.dev/), the Kubernetes development framework.
 
+## Installing
+
+Using [`fisher`](https://github.com/jorgebucaran/fisher):
+
+```fish
+fisher install lewisacidic/fish-skaffold
+```
+
+## Usage
+
+Fish abbreviations replace typed text with an extended command after pressing \<Space> or \<Enter>.
+
 Abbreviation | Command | Description
-:------------|:--------|------------
+:------------|:--------|:-----------
 s | `skaffold` | The main skaffold command
 sa | `skaffold apply` | Apply hydrated manifests to a cluster
 saf | `skaffold apply -f` | 
